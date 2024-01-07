@@ -1,0 +1,695 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: box-border;
+    font-family: arial;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #131921;
+    color: white;
+    display: flex;
+}
+
+/*logo*/
+.nav-logo {
+    height: 50px;
+    width: 128px;
+    padding: 10px 0px 0px 0px;
+}
+
+.logo {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlvvPDtblGRlU4SpxL5RKXkVypLp7RlbR1nA&usqp=CAU);
+    height: 50px;
+    width: 128px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*address*/
+.address {
+    height: 50px;
+
+    padding: 10px 0px 0px 15px;
+}
+
+.add-fir {
+    font-size: 12px;
+}
+
+#updateLocation {
+    font-weight: 600;
+    font-size: 14px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+/*searchbar*/
+.searchbar {
+    display: flex;
+    padding: 10px 4px 10px 3px;
+}
+
+.seaselect {
+    width: 50px;
+    background-color: #E6E6E6;
+    color: black;
+    font-weight: 700;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.seainput {
+    width: 700px;
+    align-items: center;
+    padding: 7px 10px 10px 0px;
+    font-weight: 700;
+}
+
+.searchicon {
+    background-color: #f5cb42;
+    width: 45px;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/*lan*/
+.lan {
+    height: 50px;
+    width: 40px;
+    margin-top: 4px;
+    margin-left: 23px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/*sign*/
+.sig {
+    padding: 10px 0px 0px 0px;
+    margin-left: 23px;
+}
+
+.sigp {
+    font-size: 12px;
+}
+
+.sigselect {
+    background-color: black;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
+/*order,return*/
+.order,
+return {
+    margin-left: 23px;
+}
+
+.return {
+    font-size: 10px;
+    padding: 10px 0px 0px 0px;
+}
+
+.order {
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+}
+
+/*cart*/
+.cart {
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    padding: 10px 0px 0px 0px;
+    margin-left: 23px;
+    display: flex;
+}
+
+.carticon {
+    font-size: 25px;
+}
+
+.car {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+/*flat*/
+.flat {
+    background-color: #232F3E;
+    height: 39px;
+    display: flex;
+}
+
+.lis {
+    display: flex;
+    color: white;
+    list-style-type: none;
+}
+
+.type {
+    text-decoration: none;
+    padding: 30px 0px 0px 30px;
+    color: white;
+    font-size: 15px;
+}
+
+.flatimg {
+    background-image: url(https://m.media-amazon.com/images/G/31/Events/img23/Jupiter23/Homepage/Phase3/P3_SWM_400x39._CB575169081_.jpg);
+    height: 39px;
+    margin-left: 130px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*advertimentimage*/
+.advertimentimg {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Jupiter23/phase3/P3B_PC_UNREC_EH_EN_V2.jpg);
+    height: 170px;
+    width: 100%;
+    margin: 0px 5px 0px 5px;
+    background-repeat: no-repeat;
+    alt: image is loading;
+}
+
+.advertimentimg2 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Jupiter23/bankstripe/J23_P3B_PC_BankStripe.jpg);
+    height: 85px;
+    width: 100%;
+    margin: 0px 5px 0px 5px;
+    background-repeat: no-repeat;
+}
+
+.alladvertisment {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    padding: 0px 0px 0px 5px;
+}
+
+.advertimentimgfir {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Jupiter23/bankstripe/J23_P2_PC_Unrec_AffordabilityStripe_01.jpg);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 100%;
+}
+
+.advertimentimgsec {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Jupiter23/bankstripe/J23_P2_PC_Unrec_AffordabilityStripe_02.jpg);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 100%;
+}
+
+.advertimentthird {
+    height: 80px;
+    width: 100%;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Jupiter23/bankstripe/J23_P2_PC_Unrec_AffordabilityStripe_03.jpg);
+    background-repeat: no-repeat;
+    padding-left: 0px;
+}
+
+.advertimentforth {
+    height: 80px;
+    width: 100%;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Jupiter23/bankstripe/J23_P3_PC_Unrec_AffordabilityStripe_04.jpg);
+    padding-right: 135px;
+    background-repeat: no-repeat;
+}
+
+/*sticker*/
+.sticker {
+    height: 183px;
+    width: 100%;
+    padding: 14px 18px;
+    margin: 0px 0px 12px;
+    display: flex;
+    background-color: #f7f8fa;
+}
+
+.stick {
+    height: 155px;
+    padding-left: 30px;
+}
+
+.stickimg {
+    height: 85px;
+    width: 85px;
+    background-size: contain;
+}
+.stickimg1{
+    background-image: url(https://m.media-amazon.com/images/G/31/prime/Shopping/Jup23/all-deals.jpg);
+}
+.stickimg2 {
+    background-image: url(https://m.media-amazon.com/images/G/31/prime/Shopping/Jup23/exhange.jpg);
+    
+}
+
+.stickimg3 {
+    background-image: url(https://m.media-amazon.com/images/G/31/prime/Shopping/Jup23/J23_SBC_trendingDeals.jpg);
+    
+}
+
+.stickimg4 {
+    background-image: url(https://m.media-amazon.com/images/G/31/prime/Shopping/Jup23/blockbuster-deals.jpg);
+    
+}
+
+.stickimg5 {
+    background-image: url(https://m.media-amazon.com/images/G/31/prime/Shopping/Jup23/deals-in-focus.jpg);
+    
+}
+
+.stickimg6 {
+    background-image: url(https://m.media-amazon.com/images/G/31/prime/Shopping/Jup23/budget-bazaar.jpg);
+    
+}
+
+.stickimg7 {
+    background-image: url(https://m.media-amazon.com/images/G/31/prime/Shopping/Jup23/wireless.jpg);
+   
+}
+
+.stickimg8 {
+    background-image: url(https://m.media-amazon.com/images/G/31/prime/Shopping/Jup23/wireless.jpg);
+   
+}
+
+.stickimg9 {
+    background-image: url(https://m.media-amazon.com/images/G/31/prime/Shopping/Jup23/clothing.jpg);
+    
+}
+
+.stickimg10 {
+    background-image: url(https://m.media-amazon.com/images/G/31/prime/Shopping/Jup23/footwear.jpg);
+   
+}
+
+.stickimg11 {
+    background-image: url(https://m.media-amazon.com/images/G/31/prime/Shopping/Jup23/jewellery-and-luggage.jpg);
+  
+}
+
+.stickimg12 {
+    background-image: url(https://m.media-amazon.com/images/G/31/prime/Shopping/Jup23/home.jpg);
+    
+}
+
+.stickimg13 {
+    background-image: url(https://m.media-amazon.com/images/G/31/prime/Shopping/Jup23/kitchen.jpg);
+    
+}
+
+.horizontalboxes {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #f7f8fa;
+}
+
+/*box1*/
+.box {
+    height: 445px;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+}
+
+.boxsub {
+    display: flex;
+}
+
+.innerbox {
+    padding: 40px 5px 10px 5px;
+}
+
+.boximg1 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/Media/Jupiter/childrens-book-1x._SY116_CB574308419_.jpg);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+.boximg2 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/Media/Jupiter/kids-toys-1x._SY116_CB574308419_.jpg);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+.boximg3 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/Media/Jupiter/Fairy-lights-1x._SY116_CB574308419_.jpg);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+.boximg4 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/Media/Jupiter/Kidswear-1x._SY116_CB574308419_.jpg);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+/*box2*/
+.box {
+    height: 445px;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+}
+
+.boxsub {
+    display: flex;
+}
+
+.innerbox {
+    padding: 40px 5px 10px 5px;
+}
+
+.boximg21 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2023/Jupiter/QCandCC/PCQCRevised/Curtain_186x116_QC_PC_5._SY116_CB575816590_.jpg);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+.boximg22 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2023/Jupiter/QCandCC/PCQCRevised/Functional_Lighting-1_186_116._SY116_CB575816590_.jpg);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+.boximg23 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2023/Jupiter/QCandCC/PCQCRevised/Under-Bed-Storage-1-186x116._SY116_CB575816590_.jpg);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+.boximg24 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2023/Jupiter/QCandCC/PCQCRevised/Showpieces-2_186x116._SY116_CB575816590_.jpg);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+/*box3*/
+.box {
+    height: 445px;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+}
+
+.boxsub {
+    display: flex;
+}
+
+.innerbox {
+    padding: 40px 5px 10px 5px;
+}
+
+.boximg31 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/PCQC/phase3/Sports_low_res._SY116_CB575250117_.png);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+.boximg32 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/PCQC/phase3/Men_low_res._SY116_CB575248862_.jpg);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+.boximg33 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/PCQC/phase3/Heels_low_res._SY116_CB575248862_.png);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+.boximg34 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/PCQC/phase3/HB_low_res._SY116_CB575250117_.png);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+/*box4*/
+.box {
+    height: 445px;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+}
+
+.boxsub {
+    display: flex;
+}
+
+.innerbox {
+    padding: 40px 5px 10px 5px;
+}
+
+.boximg41 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img24/Jup23/2x_Desktop_Quad_card_w_title_-_Card_._SY116_CB575604128_.jpg);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+.boximg42 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img24/Jup23/2x_Desktop_Quad_card_w_title_-_Card_3_copy._SY116_CB575604128_.jpg);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+.boximg43 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img24/Jup23/2xDesktopQuadcardw_title-Ca._SY116_CB575603759_.jpg);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+.boximg44 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img24/Jup23/2x_Desktop_Quad_card_w_title_-_Card_1_copy._SY116_CB575604128_.jpg);
+    background-size: contain;
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+}
+
+.boxpar {
+    line-height: 0;
+    font-size: 14px;
+    font-family: arial;
+}
+
+p2 {
+    font-family: arial;
+    font-size: 23px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.link {
+    color: green;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+/*advertiment2*/
+.addvimg {
+    height: 285px;
+    width: 100%;
+    background-color: white;
+}
+
+.addhead {
+    font-size: 23px;
+    font-weight: 550;
+    font-family: arial;
+    color: #0f1111;
+    padding: 15px;
+    padding-left: px;
+}
+
+.addanchor {
+    color: green;
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 10px;
+    font-weight: 540;
+}
+
+.allimages {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.addimage1 {
+    background-image: url(https://m.media-amazon.com/images/I/51FF5ZTyoyL._AC_SY200_.jpg);
+    background-size: contain;
+    height: 200px;
+    width: 70px;
+    background-repeat: no-repeat;
+}
+
+.addimage2 {
+    background-image: url(https://m.media-amazon.com/images/I/51PlkfLpWWL._AC_SY200_.jpg);
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
+
+.addimage3 {
+    background-image: url(https://m.media-amazon.com/images/I/51yjyyp1UbL._AC_SY200_.jpg);
+    background-size: contain;
+    height: 200px;
+    width: 180px;
+    background-repeat: no-repeat;
+}
+
+.addimage4 {
+    background-image: url(https://m.media-amazon.com/images/I/51oqK68kcFL._AC_SY200_.jpg);
+    background-size: contain;
+    height: 200px;
+    width: 145px;
+    background-repeat: no-repeat;
+}
+
+.addimage5 {
+    background-image: url(https://m.media-amazon.com/images/I/41GeKsxBySL._AC_SY200_.jpg);
+    background-size: contain;
+    height: 200px;
+    width: 145px;
+    background-repeat: no-repeat;
+}
+
+.addimage6 {
+    background-image: url(https://m.media-amazon.com/images/I/41sXjSVQrbL._AC_SY200_.jpg);
+    background-size: contain;
+    height: 200px;
+    width: 145px;
+    background-repeat: no-repeat;
+}
+
+.addimage7 {
+    background-image: url(https://m.media-amazon.com/images/I/518i9EgA+xL._AC_SY200_.jpg);
+    background-size: contain;
+    height: 200px;
+    width: 132px;
+    background-repeat: no-repeat;
+}
+
+.addimage8 {
+    background-image: url(https://m.media-amazon.com/images/I/51246OdUzZL._AC_SY200_.jpg);
+    background-size: contain;
+    height: 200px;
+    width: 250px;
+    background-repeat: no-repeat;
+}
+
+/*itemsbx*/
+.horitems {
+    height: 420px;
+    width: 100%;
+    background-color: #f7f8fa;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.itemsbox {
+    height: 400px;
+    width: 295px;
+    padding: 5px;
+    background-color: white;
+}
+
+.headitems {
+    font-size: 23px;
+    padding: 10px;
+    font-family: arial;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.items1 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/certified_refurbished/anjaga/Jupiter23/JupiterGWCampaigns/Desktop-CC2._SY304_CB575248587_.jpg);
+    height: 350px;
+    width: 290px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.items2 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/GW/HERO/P3/B/Headphone_v2_Desktop_Cat_card_1x._SY304_CB575149386_.jpg);
+    height: 350px;
+    width: 290px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.items3 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/Wireless/nbshagun/Jupiter/Phase3/MSO/D101846224_IN_WLD_Jup23_MSO_Uber_P3_Phase3_Desktop_CC_379x304_1._SY304_CB575323490_.jpg);
+    height: 350px;
+    width: 290px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.items4 {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/kindle-content-smeghn/ART/Jan23/BAU/758x608_phase3_ke._SY304_CB575273971_.jpg);
+    height: 350px;
+    width: 290px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*trainadvertiment*/
+.trainadd {
+    height: 290px;
+    width: 100%;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/AmazonPay/Jupiter23/Wave3/Train_GW_editorial_2300x646._CB575359240_.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f7f8fa;
+}
